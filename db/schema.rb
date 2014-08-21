@@ -11,9 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140821025712) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "postgis"
+
+
+  create_table "parking_spots", force: true do |t|
+    t.string   "street"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.float    "lat"
+    t.float    "lon"
+    t.string   "side"
+    t.integer  "spots"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.spatial  "geom",       limit: {:srid=>4326, :type=>"point"}
+  end
 
 end

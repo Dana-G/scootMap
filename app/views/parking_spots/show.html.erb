@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @parking_spot.street %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @parking_spot.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @parking_spot.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @parking_spot.zip %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @parking_spot.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @parking_spot.lon %>
+</p>
+
+<p>
+  <strong>Side:</strong>
+  <%= @parking_spot.side %>
+</p>
+
+<p>
+  <strong>Spots:</strong>
+  <%= @parking_spot.spots %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @parking_spot.type %>
+</p>
+
+<%= link_to 'Edit', edit_parking_spot_path(@parking_spot) %> |
+<%= link_to 'Back', parking_spots_path %>

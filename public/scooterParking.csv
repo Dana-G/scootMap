@@ -1,0 +1,46 @@
+Street,City,State,Zip,geo_longitude,geo_latitude,Side,Spots,Type
+10 S. 2nd Street,Philadelphia,PA,19106,-75.14393457,39.94953871,W,2,Scooter/Motorcycle
+100 S. 2nd Street,Philadelphia,PA,19106,-75.144213,39.948271,W,2,Scooter/Motorcycle
+500 S. 2nd Street,Philadelphia,PA,19147,-75.145713,39.942094,E,4,Scooter/Motorcycle
+10 S. 6th Street,Philadelphia,PA,19106,-75.15055908,39.95039554,W,2,Scooter/Motorcycle
+100 S. 6th Street,Philadelphia,PA,19106,-75.1509,39.949115,W,2,Scooter/Motorcycle
+1100 Arch Street,Philadelphia,PA,19107,-75.15804,39.953687,N,4,Scooter/Motorcycle
+100 N. 11TH Street,Philadelphia,PA,19107,-75.1577432,39.9543405,E,8,Scooter/Motorcycle
+100 S. 12TH Street,Philadelphia,PA,19107,-75.160341,39.950287,W,2,Scooter/Motorcycle
+299 s. 12TH St Locust-Spruce,Philadelphia,PA,19107,,,W,2,Scooter/Motorcycle
+299 S. 17TH Street,Philadelphia,PA,19103,-75.169482,39.947688,W,6,Scooter/Motorcycle
+1300 Arch Street,Philadelphia,PA,19107,-75.161184,39.954079,N,12,Scooter/Motorcycle
+1600 Ben Franklin Parkway,Philadelphia,PA,19103,,,S,6,Scooter/Motorcycle
+500 S. Broad Street,Philadelphia,PA,19146,-75.165473,39.944556,E,2,Scooter/Motorcycle
+1800 Callowhill Street,Philadelphia,PA,19130,-75.168605,39.960339,S,4,Scooter/Motorcycle
+1800 Callowhill Street,Philadelphia,PA,19130,-75.168605,39.960339,N,4,Scooter/Motorcycle
+700 Chestnut Street,Philadelphia,PA,19106,-75.1525595,39.9493583,N,2,Scooter/Motorcycle
+800 Chestnut Street,Philadelphia,PA,19107,-75.154092,39.949553,N,4,Scooter/Motorcycle
+900 Chestnut Street,Philadelphia,PA,19107,-75.155667,39.949748,N,2,Scooter/Motorcycle
+1000 Chestnut Street,Philadelphia,PA,19107,-75.157238,39.949945,N,2,Scooter/Motorcycle
+1500 Chestnut Street,Philadelphia,PA,19102,-75.165784,39.951007,N,2,Scooter/Motorcycle
+1500 Chestnut Street,Philadelphia,PA,19102,-75.165784,39.951007,N,6,Scooter/Motorcycle
+1700 Chestnut Street,Philadelphia,PA,19103,-75.168942,39.951406,N,6,Scooter/Motorcycle
+1700 Chestnut Street,Philadelphia,PA,19103,-75.168942,39.951406,N,2,Scooter/Motorcycle
+100 Dock Street,Philadelphia,PA,19106,-75.14328,39.945193,N,4,Scooter/Motorcycle
+3400 Filbert Street,Philadelphia,PA,19104,-75.191426,39.956518,N,4,Scooter/Motorcycle
+100 S. Front Street,Philadelphia,PA,19106,-75.142598,39.948066,W,4,Scooter/Motorcycle
+400 S. Front Street,Philadelphia,PA,19147,-75.143773,39.942777,W,2,Scooter/Motorcycle
+1700 JFK Blvd,Philadelphia,PA,19103,,,S,8,Scooter/Motorcycle
+1500 Latimer Street,Philadelphia,PA,19102,-75.166468,39.947903,N,4,Scooter/Motorcycle
+1700 Locust Street,Philadelphia,PA,19103,-75.169515,39.948741,N,6,Scooter/Motorcycle
+3671 Ludlow Street,Philadelphia,PA,19104,-75.19564043,39.95565559,S,4,Scooter/Motorcycle
+1700 Market Street,Philadelphia,PA,19104,-75.185647,39.9551323,N,4,Scooter/Motorcycle
+1900 Market Street,Philadelphia,PA,19104,-75.185647,39.9551323,N,6,Scooter/Motorcycle
+2200 Market Street,Philadelphia,PA,19103,-75.1768471,39.9538699,S,2,Scooter/Motorcycle
+1500 Sansom Street,Philadelphia,PA,19102,-75.165948,39.950256,N,4,Scooter/Motorcycle
+1700 Sansom Street,Philadelphia,PA,19103,-75.169105,39.950638,N,4,Scooter/Motorcycle
+1800 Sansom Street,Philadelphia,PA,19103,-75.170674,39.950839,N,4,Scooter/Motorcycle
+2100 Sansom Street,Philadelphia,PA,19103,-75.175745,39.951467,N,2,Scooter/Motorcycle
+3700 Sansom Street,Philadelphia,PA,19104,-75.196778,39.954087,N,2,Scooter/Motorcycle
+400 South Street,Philadelphia,PA,19147,-75.1492598,39.94153,S,6,Scooter/Motorcycle
+401 South Street,Philadelphia,PA,19147,-75.149179,39.94162,N,2,Scooter/Motorcycle
+1000 South Street,Philadelphia,PA,19147,-75.158805,39.942739,N,4,Scooter/Motorcycle
+1300 South Street,Philadelphia,PA,19147,-75.16353,39.943317,N,4,Scooter/Motorcycle
+1800 South Street,Philadelphia,PA,19146,-75.1720396,39.9443602,S,2,Scooter/Motorcycle
+800 Spruce Street,Philadelphia,PA,19107,-75.155622,39.9457831,S,4,Scooter/Motorcycle

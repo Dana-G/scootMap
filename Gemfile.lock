@@ -21,6 +21,9 @@ GEM
       activemodel (= 4.1.4)
       activesupport (= 4.1.4)
       arel (~> 5.0.0)
+    activerecord-postgis-adapter (2.2.0)
+      activerecord (~> 4.0)
+      rgeo-activerecord (~> 1.0)
     activesupport (4.1.4)
       i18n (~> 0.6, >= 0.6.9)
       json (~> 1.7, >= 1.7.7)
@@ -28,12 +31,13 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    better_errors (1.1.0)
+    better_errors (2.0.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+      rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap-sass (2.3.2.2)
+    bootstrap-sass (3.2.0.1)
       sass (~> 3.2)
     builder (3.2.2)
     coderay (1.1.0)
@@ -82,7 +86,6 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.4)
       sprockets-rails (~> 2.0)
-    rails_apps_pages (0.5.11)
     rails_layout (1.0.21)
     railties (4.1.4)
       actionpack (= 4.1.4)
@@ -92,6 +95,13 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
+    rgeo (0.3.20)
+    rgeo-activerecord (1.1.0)
+      activerecord (~> 4.0)
+      rgeo (~> 0.3)
+    rmre (0.0.8)
+      activerecord (>= 3.0.0)
+      erubis
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -121,7 +131,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.2)
+    turbolinks (2.2.3)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -133,9 +143,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-postgis-adapter
   better_errors
   binding_of_caller
-  bootstrap-sass (~> 2.3.2.2)
+  bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
   high_voltage
   jbuilder (~> 2.0)
@@ -143,9 +154,9 @@ DEPENDENCIES
   pg
   quiet_assets
   rails (= 4.1.4)
-  rails_apps_pages
   rails_layout
-  sass-rails (~> 4.0.3)
+  rmre (~> 0.0.8)
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spring
   thin
