@@ -11,7 +11,7 @@
       <th>Lon</th>
       <th>Side</th>
       <th>Spots</th>
-      <th>Type</th>
+      <th>Vehicle</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -27,7 +27,7 @@
         <td><%= parking_spot.lon %></td>
         <td><%= parking_spot.side %></td>
         <td><%= parking_spot.spots %></td>
-        <td><%= parking_spot.type %></td>
+        <td><%= parking_spot.vehicle %></td>
         <td><%= link_to 'Show', parking_spot %></td>
         <td><%= link_to 'Edit', edit_parking_spot_path(parking_spot) %></td>
         <td><%= link_to 'Destroy', parking_spot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
