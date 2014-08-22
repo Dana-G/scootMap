@@ -17,16 +17,13 @@ This application requires:
 
 and so far these main gems:
 
-Twitter bootstrap
-Postgres/gis on Thin
+Twitter bootstrap,
+Postgres/gis on Thin,
 activerecord-postgis-adapter (uses Rgeo)
-
 
 
 Getting Started
 ---------------
-
-
 
 Documentation and Support
 -------------------------
