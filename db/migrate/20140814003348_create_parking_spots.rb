@@ -9,7 +9,8 @@ class CreateParkingSpots < ActiveRecord::Migration
       t.float :lon
       t.string :side
       t.integer :spots
-      t.string :type
+      t.string :vehicle
+      t.spatial  "geom",       limit: {:srid=>4326, :type=>"point"}
 
       t.timestamps
     end

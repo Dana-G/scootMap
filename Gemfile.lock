@@ -99,9 +99,6 @@ GEM
     rgeo-activerecord (1.1.0)
       activerecord (~> 4.0)
       rgeo (~> 0.3)
-    rmre (0.0.8)
-      activerecord (>= 3.0.0)
-      erubis
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -131,7 +128,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.3)
+    turbolinks (2.3.0)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -155,7 +152,6 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.1.4)
   rails_layout
-  rmre (~> 0.0.8)
   sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spring

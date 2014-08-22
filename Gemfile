@@ -14,7 +14,6 @@ gem 'high_voltage'
 gem 'pg'
 gem 'thin'
 gem 'activerecord-postgis-adapter'
-gem 'rmre', '~> 0.0.8'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

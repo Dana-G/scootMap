@@ -1,9 +1,20 @@
+namespace :scooterSpot do
 
+require 'thread'
 require 'csv'
 
-CSV.foreach("public/scooterParking.csv",  :headers => true) do |row|
-  ParkingSpot.create!(row.to_hash)
-end
+
+        desc "import csv file"
+        task :import_csv_file => :environment do
+
+            CSV.foreach("public/scooterParking.csv",  :headers => true) do |row|
+                ParkingSpot.create!(row.to_hash)
+                puts "I imported it!"
+            end
+        end
+
+    end
+
 
 #   task :task_one: :environment do
 
@@ -12,4 +23,3 @@ end
 #     end
 #   end
 
-# end

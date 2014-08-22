@@ -1,4 +1,4 @@
-Street,City,State,Zip,geo_longitude,geo_latitude,Side,Spots,Type
+street,city,state,zip,lon,lat,side,spots,vehicle
 10 S. 2nd Street,Philadelphia,PA,19106,-75.14393457,39.94953871,W,2,Scooter/Motorcycle
 100 S. 2nd Street,Philadelphia,PA,19106,-75.144213,39.948271,W,2,Scooter/Motorcycle
 500 S. 2nd Street,Philadelphia,PA,19147,-75.145713,39.942094,E,4,Scooter/Motorcycle
