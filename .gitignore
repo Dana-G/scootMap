@@ -77,3 +77,7 @@ pickle-email-*.html
 # Environment files that may contain sensitive data
 .env
 .powenv
+
+#Keep private
+config/initializers/secret_token.rb
+config/secrets.yml

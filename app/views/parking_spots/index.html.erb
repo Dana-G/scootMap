@@ -1,4 +1,4 @@
-<h1>Listing parking_spots</h1>
+<h1>Philadelphia Scooters Parking Map</h1>
 
 <div id="map">
 </div>
@@ -25,14 +25,14 @@
   <tbody>
     <% @parking_spots.each do |parking_spot| %>
       <tr>
-        <td><%= parking_spot.street %></td>
+        <td class="street"><%= parking_spot.street %></td>
         <td><%= parking_spot.city %></td>
         <td><%= parking_spot.state %></td>
         <td><%= parking_spot.zip %></td>
         <td class="lat"><%= parking_spot.lat %></td>
         <td class="lon"><%= parking_spot.lon %></td>
-        <td><%= parking_spot.side %></td>
-        <td><%= parking_spot.spots %></td>
+        <td class="side"><%= parking_spot.side %></td>
+        <td class="spots"><%= parking_spot.spots %></td>
         <td><%= parking_spot.vehicle %></td>
         <td> <a class= "marker_link" href="#">Marker</a></td>
         <td><%= link_to 'Show', parking_spot %></td>

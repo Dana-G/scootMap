@@ -20,5 +20,46 @@
 
  */
 
+* {
+  padding:3px;
+  margin:0;
+  border:0;
+}
+
+body{
+    background: #efefef;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px 30px;
+}
+
+.content{
+    margin: 0 auto;
+    width:85%;
+    background: white;
+}
+
+h1{
+    margin:5px 0px 20px 10px;
+    font-weight: normal;
+}
+
+table{
+    clear:both;
+}
+
+th{
+    background:#cfcfcf;
+    padding: 10px;
+}
+
+td{
+    border-bottom: 1px solid #ccc;
+    padding:5px 10px;
+    font-weight: 100;
+}
+
+tr:first-child td{
+    width:130px;
+}
 
 
